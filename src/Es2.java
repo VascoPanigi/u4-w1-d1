@@ -15,7 +15,7 @@ public class Es2 {
         System.out.println(firstName.concat(lastName).concat(confirmation));
 
         sc.close();
-        
+
     }
 
 }
