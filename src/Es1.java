@@ -31,8 +31,10 @@ public class Es1 {
         String[] newArray = new String[6];
         System.arraycopy(startingArr, 0, newArray, 0,3);
         newArray[3] = strToInsert;
-        newArray[4] = startingArr[3];
-        newArray[5] = startingArr[4];
+
+
+        System.arraycopy(startingArr, 3, newArray, 4, 2);
+
 
         return newArray;
 
